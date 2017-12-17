@@ -22,7 +22,7 @@ namespace DapperInfrastructure.Console
                 Name = "Updated category"
             });
 
-            bool deleteProduct = productRepository.Delete(6);
+            bool deleteProduct = productRepository.Delete(5);
 
             var categories = categoryRepository.GetAll();
 
